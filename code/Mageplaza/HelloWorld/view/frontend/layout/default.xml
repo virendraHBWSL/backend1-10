@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout.xsd">
+    <block class="Mageplaza\HelloWorld\Block\HelloWorld" name="helloworld_block" template="MagePlaza_HelloWorld::hello_world.phtml" />
+</layout>
