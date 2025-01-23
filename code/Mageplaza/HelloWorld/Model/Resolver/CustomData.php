@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\Module\Model\Resolver;
+namespace Mageplaza\HelloWorld\Model\Resolver;
 
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 
