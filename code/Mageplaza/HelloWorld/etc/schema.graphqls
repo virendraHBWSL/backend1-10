@@ -1,5 +1,7 @@
 type Query {
-    customData: CustomDataType @resolver(class: "Mageplaza\\HelloWorld\\Model\\Resolver\\CustomData") @doc(description: "Retrieve custom data")
+    customData: CustomDataType 
+    @resolver(class: "Mageplaza\\HelloWorld\\Model\\Resolver\\CustomData")
+    @doc(description: "Retrieve custom data")
 }
 
 type CustomDataType {
@@ -7,6 +9,4 @@ type CustomDataType {
     name: String!
 }
 
-schema {
-    query: Query
-}
+

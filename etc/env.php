@@ -49,7 +49,10 @@ return [
                 'id_prefix' => 'cce_'
             ]
         ],
-        'allow_parallel_generation' => false
+        'allow_parallel_generation' => false,
+        'graphql' => [
+            'id_salt' => '8fssXs43LLnH8gz1iKspUMuEVXh7rR6A'
+        ]
     ],
     'lock' => [
         'provider' => 'db'

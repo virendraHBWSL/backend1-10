@@ -2,16 +2,21 @@
 namespace Mageplaza\HelloWorld\Model\Resolver;
 
 use Magento\Framework\GraphQl\Query\ResolverInterface;
+use Magento\Framework\GraphQl\Config\Element\Field;
+use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
 
 class CustomData implements ResolverInterface
 {
-    public function resolve(\Magento\Framework\GraphQl\Config\Element\Field $field, $context, \Magento\Framework\GraphQl\Schema\Type\ResolveInfo $info, array $value = null, array $args = null)
-    {
-        // Fetch and return custom data
+    public function resolve(
+        Field $field, 
+        $context, 
+        ResolveInfo $info, 
+        array $value = null, 
+        array $args = null
+    ) {
         return [
             'id' => 1,
-            'name' => 'Custom Data',
-            // Add more data as needed
+            'name' => 'Custom Data'
         ];
     }
 }
