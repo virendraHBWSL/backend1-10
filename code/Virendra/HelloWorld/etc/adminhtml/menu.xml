@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<menu>
+    <add id="Virendra_HelloWorld::post" title="Posts" module="Virendra_HelloWorld" sortOrder="10" parent="Magento_Backend::content" action="helloworld/post/index" resource="Virendra_HelloWorld::post"/>
+</menu>
